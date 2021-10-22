@@ -8,6 +8,6 @@ import { UserModule } from 'src/users/user.module';
 @Module({
   imports: [TeacherModule, StudentModule, UserModule],
   controllers: [AppController],
-  providers: [AppService]
+  providers: [AppService],
 })
 export class AppModule {}
